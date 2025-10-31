@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=BBH+Sans+Bogle&family=Oleo+Script:wght@400;700&family=Permanent+Marker&family=Righteous&display=swap');
+
+h1 {
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blueviolet;
+    text-align: center;
+
+}
+
+.texto-centralizado {
+    text-align: center;
+}
+
+img {
+    display: block;
+    /* fazer a imagem ocupar uma linha inteira */
+    margin: 20px auto;
+    /* Centraliza a imagem horizontalmente */
+    border-radius: 50px;
+    /* deixar a imagem circular */
+    width: 150px;
+    /* largura da imagem */
+    height: 150px
+        /* altura da imagem */
+    ;
+}
