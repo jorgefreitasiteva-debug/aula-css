@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=BBH+Sans+Bogle&family=Oleo+Script:wght@400;700&family=Permanent+Marker&family=Righteous&display=swap');
 
+
+
+
 body {
-    background: linear-gradient (135deg, #f0f0f0 0% #e6ecff 100%);
+    background: linear-gradient (135deg, #f5f1f1 0% #e6ecff 100%);
     /* gradiente de fundo */
+    background-color: rgb(235, 181, 181);
     display: flex;
     /* define um contêiner flexivel */
     justify-content: center;
@@ -13,11 +17,19 @@ body {
         /* altura total da viewport */
 }
 
+#card {
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+    max-width: 150px; /* Largura máxima do card */
+    text-align: center; /* Centraliza o texto */
+    background-color: #f1d3d3;
+    border-radius: 40px;
+}
 h1 {
     font-family: "Alumni Sans Inline One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: blueviolet;
+    color: rgb(212, 4, 4);
     text-align: center;
 
 }
@@ -26,9 +38,9 @@ h1 {
 img {
     display: block;
     /* fazer a imagem ocupar uma linha inteira */
-    margin: 20px auto;
+    /* margin: 20px auto; */
     /* Centraliza a imagem horizontalmente */
-    border-radius: 50px;
+    border-radius: 80px;
     /* deixar a imagem circular */
     width: 150px;
     /* largura da imagem */
@@ -36,11 +48,19 @@ img {
         /* altura da imagem */
     ;
 }
-
+img:hover {
+    transform: scale(1.25); /* aumenta levemente a imagem ao passar o mouse*/
+    transition: transform 0.3s ease; /* animação suave*/
+}
 p {
-    text-align: center;
+    text-align: 16px;
+    /* tamanho da fonte */
     font-family: "Alumni Sans Inline One", sans-serif;
     font-weight: 300;
     font-style: normal;
-    color: rgb(red, green, blue);
+    color: rgb(185, 22, 22);
+}
+.foto-legenda {
+    font-size: 12px;
+    font-style: italic;
 }
